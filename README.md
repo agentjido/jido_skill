@@ -2,6 +2,14 @@
 
 Skill-only runtime for Jido-based markdown skills with signal-first dispatch.
 
+## Project Status
+
+`jido_skill` is being folded back into [`jido_ai`](https://github.com/agentjido/jido_ai).
+
+The intent is to port the useful skill functionality from this package into the canonical implementation in `jido_ai`, rather than continuing to evolve `jido_skill` as a separate package. Tracking issue:
+
+- [`agentjido/jido_ai#207`](https://github.com/agentjido/jido_ai/issues/207) - Integrate Agent Skills support into `jido_ai` (port useful pieces from `jido_skill`)
+
 ## Installation
 
 Add `jido_skill` to your dependencies:
